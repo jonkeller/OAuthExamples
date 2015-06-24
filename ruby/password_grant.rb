@@ -6,13 +6,13 @@ require 'json'
 require "base64"
 
 
-user = "kevin.glinski@inin.com.dev"
-password = "ININ1234"
-clientid="b5a23a34-5e6f-4f46-9ffd-da265030eb3e"
-secret="my-client-secret"
+user = ""
+password = ""
+clientid=""
+secret=""
 
 
-@env="inindca"
+@env="mypurecloud"
 @authendpoint = "https://signin.#{@env}.com"
 @apiendpoint = "https://public-api.us-east-1.#{@env}.com"
 
